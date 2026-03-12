@@ -1,0 +1,15 @@
+---
+layout: article
+title: "Lecture Notes"
+---
+
+{% for note in site.notes %}
+<a class="resource-link" href="{{note.url}}">
+  <div class="resource">
+    <span class="resource-title">{{note.title}}</span>
+  </div>
+</a>
+
+{% else %}
+<h2>Hmm, it seems there are no lecture notes here yet...</h2>
+{% endfor %}

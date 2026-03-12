@@ -1,0 +1,15 @@
+---
+layout: article
+title: "Assignments"
+---
+
+{% for assign in site.data.assignments %}
+
+<a class="resource-link" href="{{assign.link}}">
+  <div class="resource">
+    <span class="resource-title">{{assign.name}}</span>
+    <span class="resource-date">{% if resource.date %} Due: ({{-resource.date-}}) {% endif -%}</span>
+  </div>
+</a>
+
+{% endfor %}
