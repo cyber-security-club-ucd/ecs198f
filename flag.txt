@@ -1,7 +1,0 @@
-Oh, you found me!
-
-I guess in retrospect, I wasn't actually hidden that well.
-Git commits are all public, after all.
-
-Here's the flag you were looking for:
-ecs198f{g1t_i5_n0t_a_s3cr3t_st0rag3}

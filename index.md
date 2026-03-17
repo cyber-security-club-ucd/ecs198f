@@ -36,3 +36,8 @@ Up to 72 hours of late work accepted. Your grade will be reduced by 10% of the t
 ### Academic integrity
 All students are expected to adhere to the UC Davis Code of Academic Conduct.
 No submission material should contain AI generated content. Violations may be reported to SJA.
+
+## Acknowledgements
+This course is made possible with support from the Cyber Security Club at UC Davis and the
+corresponding infrastrucutre. We would like to thank Logan Hillyer, infrastructure manager, 
+for providing technical support for the course.
