@@ -1,5 +1,4 @@
 @import url('gruvbox.dark.css');
-@import url('gruvbox.light.css');
 
 :root {
     --round: 4px;
@@ -26,17 +25,6 @@ html[data-theme='dark'] {
     --shadow: #0c1f4d40;
 }
 
-html[data-theme='light'] {
-    --bg: #a1a7b2;
-    --fg: #e1e2e9;
-    --fg-alt: #cee0f2;
-    --text: #333;
-    --link: #2b6fae;
-    --link-hover: #6f94b9;
-    --white-dull: #5a6973;
-    --shadow: #33456f40;
-}
-
 * {
     vertical-align: baseline;
 	font-family: inherit;
@@ -52,6 +40,8 @@ body {
     color: var(--text);
     font-family: 'Roboto Mono', sans-serif;
     margin: 0;
+
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -124,13 +114,27 @@ header {
     font-family: 'Roboto Mono', 'Roboto', sans-serif;
     height: 40px;
     width: 100%;
-    box-shadow: 0 10px 10px var(--shadow);
     margin: auto;
     text-align: center;
     color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%; 
+    height: 15px;
+
+    background: linear-gradient(to bottom, var(--shadow), transparent);
+    pointer-events: none;
+    
+    z-index: -1; 
 }
 
 #home{
@@ -366,16 +370,4 @@ footer {
     text-align: center;
     font-size: 0.75em;
     margin-bottom: 10px;
-}
-    --round: 4px;
-    --bg: #293955;
-    --fg: #3f5270;
-    --fg-alt: #21476e;
-    --text: #f2e5e5;
-    --text-dark: #333;
-    --link: #18aee9;
-    --link-hover: #405e7c;
-    --white: #eee;
-    --white-dull: #a4b3bc;
-    --shadow: #0c1f4d40;
 }
