@@ -137,20 +137,26 @@ header::after {
     z-index: -1; 
 }
 
-#home{
-  text-decoration: none;
-  color: #fff;
-  
-  display: inline-block;
-  padding: 4px 4px;
-  
-  border-radius: 4px;
-  transition: background-color 0.2s ease;
+.home {
+    display: flex;
+    align-items: center;
 }
 
-#home:hover {
-  color: #000;
-  background-color: #fff;
+.home > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 4px 4px;
+}
+
+.home:not(:last-child):after {
+  color: var(--link);
+  content: "|";
+  margin: 0 9px;
+}
+
+.home > a:hover {
+  background-color: #4A739C;
+  text-decoration: none;
 }
 
 #clubLogo {
