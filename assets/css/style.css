@@ -340,6 +340,11 @@ li::marker {
     font-weight: bold;
 }
 
+iframe[title="YouTube video player"] {
+    display: block;
+    margin: auto;
+}
+
 /* Resource */
 
 .resource {
