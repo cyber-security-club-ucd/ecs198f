@@ -1,3 +1,7 @@
 - name: "Assignment 1: Linux/Unix shell fundamentals"
   due: "2026-04-12"
   link: "/assets/assignments/1.pdf"
+- name: "Assignment 2: Cryptography, Buffer Overflow, Reverse Engineering"
+  due: "2026-04-26"
+  link: "/assets/assignments/2.pdf"
+  aux: "/assets/assignments/2.zip"
