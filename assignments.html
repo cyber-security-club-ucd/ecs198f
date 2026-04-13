@@ -21,7 +21,8 @@ follows the rubric.
 {% if assign.aux %}
 <a class="resource-link resource-aux-link" href="{{assign.aux}}">
   <div class="resource resource-aux">
-    <span class="resource-aux-label">Auxiliary file: {{ assign.aux | split: '/' | last }}</span>
+    <span class="resource-aux-label">Auxiliary file for {{ assign.aux_name }}: {{ assign.aux | split: '/' | last
+      }}</span>
   </div>
 </a>
 {% endif %}

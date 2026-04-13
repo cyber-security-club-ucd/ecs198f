@@ -4,4 +4,5 @@
 - name: "Assignment 2: Cryptography, Buffer Overflow, Reverse Engineering"
   due: "2026-04-26"
   link: "/assets/assignments/2.pdf"
+  aux_name: "Assignment 2"
   aux: "/assets/assignments/2.zip"
