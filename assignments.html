@@ -18,5 +18,12 @@ follows the rubric.
     <span class="resource-date">{% if resource.date %} Due: ({{-resource.date-}}) {% endif -%}</span>
   </div>
 </a>
+{% if assign.aux %}
+<a class="resource-link resource-aux-link" href="{{assign.aux}}">
+  <div class="resource resource-aux">
+    <span class="resource-aux-label">Auxiliary file: {{ assign.aux | split: '/' | last }}</span>
+  </div>
+</a>
+{% endif %}
 
 {% endfor %}
