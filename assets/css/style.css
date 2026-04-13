@@ -374,6 +374,21 @@ iframe[title="YouTube video player"] {
     background-color: var(--bg);
 }
 
+.resource-aux-link {
+    display: block;
+    margin-left: 2em;
+}
+.resource-aux {
+    background-color: var(--fg);
+    padding: 0.5em 1em;
+    margin-top: -0.2em;
+}
+.resource-aux-label {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9em;
+    color: var(--white-dull);
+}
+
 /* Footer */
 
 footer {
