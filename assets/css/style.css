@@ -379,7 +379,7 @@ iframe[title="YouTube video player"] {
     margin-left: 2em;
 }
 .resource-aux {
-    background-color: var(--fg);
+    background-color: var(--fg-alt);
     padding: 0.5em 1em;
     margin-top: -0.2em;
 }
