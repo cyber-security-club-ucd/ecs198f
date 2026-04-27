@@ -6,3 +6,6 @@
   link: "/assets/assignments/2.pdf"
   aux_name: "Assignment 2"
   aux: "/assets/assignments/2.zip"
+- name: "Assignment 3: Web vulnerabilities, OSINT"
+  due: "2026-05-06"
+  link: "/assets/assignments/3.pdf"
