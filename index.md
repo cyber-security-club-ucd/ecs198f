@@ -39,5 +39,5 @@ No submission material should contain AI generated content. Violations may be re
 
 ## Acknowledgements
 This course is made possible with support from the Cyber Security Club at UC Davis and the
-corresponding infrastrucutre. We would like to thank Logan Hillyer, infrastructure manager, 
+corresponding infrastructure. We would like to thank Logan Hillyer, infrastructure manager, 
 for providing technical support for the course.
