@@ -19,6 +19,8 @@ Lecture notes will be posted [here](/notes) and students will be using the
 [server infrastructure](https://auth.daviscybersec.org) for completing the assignments.
 We also have a [discord channel](https://discord.com/channels/388814420773437441/1478915036759064666) on the club server for this class.
 
+Lecture recordings are provided on a best effort basis. The YouTube playlist can be found [here](https://www.youtube.com/playlist?list=PLD09vcF_nsXFWAHtqynwfLMVW-Q7vYWEz).
+
 ### Course instructors
 - Jason Huang
 - Akhil Guntur
