@@ -9,3 +9,6 @@
 - name: "Assignment 3: Web vulnerabilities, OSINT"
   due: "2026-05-06"
   link: "/assets/assignments/3.pdf"
+- name: "Assignment 4: Linux Penetration Testing"
+  due: "2026-05-17"
+  link: "/assets/assignments/4.pdf"
