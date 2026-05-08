@@ -358,12 +358,19 @@ iframe[title="YouTube video player"] {
     font-size: 1.2em;
     font-weight: 600;
 }
+.resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+}
 .resource-author {
     color: var(--text)
 }
 .resource-date {
-    font-style: italic;
-    color: var(--white-dull)
+    font-size: 0.8em;
+    color: var(--white-dull);
+    white-space: nowrap;
 }
 .resource-link:hover,
 .resource-author:hover,

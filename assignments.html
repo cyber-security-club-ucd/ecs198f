@@ -14,8 +14,12 @@ follows the rubric.
 
 <a class="resource-link" href="{{assign.link}}">
   <div class="resource">
-    <span class="resource-title">{{assign.name}}</span>
-    <span class="resource-date">{% if resource.date %} Due: ({{-resource.date-}}) {% endif -%}</span>
+    <div class="resource-header">
+      <span class="resource-title">{{ assign.name }}</span>
+      {% if assign.due %}
+      <span class="resource-date">Due: {{ assign.due | date: "%d %B %Y" }}</span>
+      {% endif %}
+    </div>
   </div>
 </a>
 {% if assign.aux %}
