@@ -365,7 +365,7 @@ iframe[title="YouTube video player"] {
     gap: 1em;
 }
 .resource-author {
-    color: var(--text)
+    color: var(--text);
 }
 .resource-date {
     font-size: 0.8em;

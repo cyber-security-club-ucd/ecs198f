@@ -17,7 +17,7 @@ follows the rubric.
     <div class="resource-header">
       <span class="resource-title">{{ assign.name }}</span>
       {% if assign.due %}
-      <span class="resource-date">Due: {{ assign.due | date: "%d %B %Y" }}</span>
+      <time class="resource-date" datetime="{{ assign.due }}">Due: {{ assign.due | date: "%d %B %Y" }}</time>
       {% endif %}
     </div>
   </div>
