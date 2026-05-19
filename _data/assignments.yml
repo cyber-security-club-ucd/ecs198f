@@ -12,3 +12,6 @@
 - name: "Assignment 4: Linux Penetration Testing"
   due: "2026-05-17"
   link: "/assets/assignments/4.pdf"
+- name: "Assignment 5: Linux Defense"
+  due: "2026-05-27"
+  link: "/assets/assignments/5.pdf"
