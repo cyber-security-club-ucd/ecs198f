@@ -15,3 +15,6 @@
 - name: "Assignment 5: Linux Defense"
   due: "2026-05-27"
   link: "/assets/assignments/5.pdf"
+- name: "Assignment 6: Incident Response"
+  due: "2026-06-05"
+  link: "/assets/assignments/6.pdf"
